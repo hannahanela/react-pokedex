@@ -1,7 +1,8 @@
+import { pokemonData } from "./pokemonList";
 import Pokecard from "./Pokecard";
 import "./Pokedex.css";
 
-function Pokedex({ pokemon }) {
+function Pokedex({ pokemon = pokemonData }) {
   return (
     <ul>
       {pokemon.map((p) => (
