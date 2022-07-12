@@ -1,15 +1,16 @@
 import Pokecard from "./Pokecard";
+import "./Pokedex.css";
 
 function Pokedex({ pokemon }) {
   return (
     <ul>
       {pokemon.map((p) => (
-        <li>
+        <li className="poke-dex-list">
           <Pokecard
             name={p.name}
-            image={p.id}
+            id={p.id}
             type={p.type}
-            exp={p.base_experience}
+            baseExp={p.base_experience}
           />
         </li>
       ))}

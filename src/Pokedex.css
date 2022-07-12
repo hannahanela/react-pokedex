@@ -1,0 +1,10 @@
+.poke-dex-list{
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

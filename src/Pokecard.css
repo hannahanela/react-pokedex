@@ -1,0 +1,11 @@
+.poke-card{
+height: 370px ;
+width: 300px;
+display: inline-block;
+}
+
+.poke-card-name{
+    color: blue;
+    margin-top: 70px;
+}
+
